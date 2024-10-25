@@ -4,7 +4,7 @@ const app = express();
 const port = 3000;
 
 app.get("/", (req, res) => {
-  res.send("EC2 ASG5 Version with pipeline for 6 instances - V8 ! ");
+  res.send("EC2 ASG5 Version with pipeline for 6 instances - V6 ! ");
 });
 
 app.get("/status", (req, res) => {
